@@ -30,8 +30,12 @@ GPT-3는 인터넷의 방대한 양의 텍스트로 사전 훈련되어있다. �
 
 ### 설치
 OpenAI 명령줄 인터페이스(CLI)를 사용하는 것을 권장
-        pip install --upgrade openai
+```
+pip install --upgrade openai
+```
 (다음 지침은 0.9.4 버전 이상에서 작동, 또한 OpenAI CLI는 Python 3를 요구한다.)
 
 파인튜닝 명령을 실행하기 전에 다음 줄을 쉘 초기화 스크립트(e.g, .bashrc, zshrc 등)에 추가하거나 파인튜닝 명령 실행 전에 명령 줄에서 실행하여 OPENAI_API_KEY 환경 변수를 설정하기
-        export OPENAI_API_KEY="<OPENAI_API_KEY>"
+```
+export OPENAI_API_KEY="<OPENAI_API_KEY>"
+```
