@@ -20,3 +20,10 @@
 * OpenAI의 GPT-3.5 모델을 사용하여 대화를 생성하고 반환한다.
 * 만약 RateLimitError(요청 제한 오류)가 발생하면, 오류 메시지를 반환한다.
 ```
+* OpenAI사용
+```
+openai.api_key = "YOUR_API_KEY" : OpenAI API 키를 설정
+openai.ChatCompletion.create() : GPT-3.5를 사용하여 대화를 생성하는 함수이다.
+사용자의 입력을 받아 GPT-3.5 모델에 보내고, 응답을 받아와 반환한다.
+```
+* JSON 및 렌더링 : jsonify*content=content) 생성된 대화 내용을 JSON 형식으로 반환
